@@ -1,0 +1,30 @@
+.row {
+          margin-top: 3%;
+        }
+        @media only screen and (max-width: 400px) {
+          .row {
+            margin-top: 30%;
+          }
+        }
+        .bt {
+          font-weight: 500;
+        }
+        .bt:hover {
+          background-color: #3377ff !important;
+          color: white;
+          font-weight: 700;
+          cursor: pointer;
+        }
+
+table, th, td {
+  border: 1px solid rgb(100, 208, 17);
+}
+
+th {
+  padding: 15px;
+}
+
+
+td {
+  padding: 15px;
+}
